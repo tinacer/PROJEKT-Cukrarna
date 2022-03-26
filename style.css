@@ -30,6 +30,158 @@ html { box-sizing: border-box; }
 
 
 body {
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
 	margin: 0;
 }
 
+h1,
+h2,
+h3 {
+	color: #3e606b;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+
+.content-section,
+.header {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.content-section {
+	padding: 80px 0;
+}
+
+
+/*header*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.menu ul {
+	display: flex;
+	color: #242424;
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul li{
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.menu a {
+	color: #242424;
+	text-decoration: none;
+}
+
+.menu li:hover {
+	background-color: #f195b2;
+}
+
+.menu a:hover {
+	color: whitesmoke;
+}
+
+
+/*section hero*/
+.hero {
+	background:#303339 url(images/cupcake.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.hero h1 {
+	font-size: 52px;
+	font-style: normal;
+}
+.hero-text {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.hero h1,
+.hero-text {
+	color: whitesmoke;
+	padding-right: 40%;
+}
+
+/*two columns style - two sections are the same*/
+.two-columns {
+	display: flex;
+	gap: 30px;
+	justify-items: center;
+}
+
+.title-section {
+	font-size: 36px;
+}
+
+/*section products*/
+.section-gray {
+	background-color: #f0f0f0;
+}
+
+.offer {
+	display: flex;
+	justify-content: space-between;
+	gap:30px;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;	
+	box-shadow: 0 0 5px rgb(73, 73, 73);
+}
+
+.product-content {
+	padding: 20px;
+}
+
+.product img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+
+/*buttons*/
+.buttons {
+	display: inline-block;
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+
+.button {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.buttons:hover,
+.buttons:active {
+	background-color: #d2567d;
+}
+
+/*photo*/
+.photo {
+	border-radius: 5px;
+}
+
+/*footer*/
+.footer {
+	background-color: #303339;
+	color: whitesmoke;
+	padding: 30px 0;
+	text-align: center;
+}
